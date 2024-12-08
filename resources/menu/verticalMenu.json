@@ -1,0 +1,221 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        "5"
+      ],
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Analytics",
+          "slug": "dashboard-analytics"
+        },
+        {
+          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/dashboard/crm",
+          "name": "CRM",
+          "slug": "dashboard-crm",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        },
+        {
+          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/ecommerce/dashboard",
+          "name": "eCommerce",
+          "slug": "app-ecommerce-dashboard",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        },
+        {
+          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/logistics/dashboard",
+          "name": "Logistics",
+          "slug": "app-logistics-dashboard",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        },
+        {
+          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/academy/dashboard",
+          "name": "Academy",
+          "slug": "app-academy-dashboard",
+          "target": "_blank",
+          "badge": [
+            "label-primary fs-tiny",
+            "Pro"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Layouts",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "layouts/without-menu",
+          "name": "Without menu",
+          "slug": "layouts-without-menu"
+        },
+        {
+          "url": "layouts/without-navbar",
+          "name": "Without navbar",
+          "slug": "layouts-without-navbar"
+        },
+        {
+          "url": "layouts/container",
+          "name": "Container",
+          "slug": "layouts-container"
+        },
+        {
+          "url": "layouts/fluid",
+          "name": "Fluid",
+          "slug": "layouts-fluid"
+        },
+        {
+          "url": "layouts/blank",
+          "name": "Blank",
+          "slug": "layouts-blank",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "name": " Benificaires et Demandes",
+      "icon": "menu-icon tf-icons bx bx-package",
+      "slug": "benificaires-demandes",
+      "submenu": [
+        {
+          "url": "/benificaires",
+          "name": "Benificaires",
+          "slug": "benif"
+        },
+        {
+          "url": "/demandes",
+          "name": "Demandes",
+          "slug": "dem"
+        }
+
+      ]
+    },
+    {
+      "name": "Partenaires et sponsorships",
+      "icon": "menu-icon tf-icons bx bx-truck",
+      "slug": "partenaires-et-sponsorships",
+      "submenu": [
+        {
+          "url": "/partenaires",
+          "name": "Partenaires",
+          "slug": "partenaires"
+        },
+        {
+          "url": "/sponsorships",
+          "name": "Sponsorships",
+          "slug": "sponsorships"
+        }
+      ]
+    },
+    {
+      "name": "Collectes et Livraisons",
+      "icon": "menu-icon tf-icons bx bx-package",
+      "slug": "collectes-livraisons",
+      "submenu": [
+        {
+          "url": "/collectes",
+          "name": "Collectes",
+          "slug": "collectes"
+        },
+        {
+          "url": "/livraisons",
+          "name": "Livraisons",
+          "slug": "livraisons"
+        }
+      ]
+    },
+    
+    {
+      "name": "Account Settings",
+      "icon": "menu-icon tf-icons bx bx bx-dock-top",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Account",
+          "slug": "pages-account-settings-account"
+        },
+        {
+          "url": "pages/account-settings-notifications",
+          "name": "Notifications",
+          "slug": "pages-account-settings-notifications"
+        },
+        {
+          "url": "pages/account-settings-connections",
+          "name": "Connections",
+          "slug": "pages-account-settings-connections"
+        }
+      ]
+    },
+    {
+      "name": "Gestion Des Offres",
+      "icon": "menu-icon tf-icons bx bx-cube-alt",
+      "slug": "pages-misc",
+      "submenu": [
+        {
+          "url": "/donatorslist",
+          "name": "Donators",
+          "slug": "pages-faq"
+        },
+        {
+          "url": "offres",
+          "name": "Offres",
+          "slug": "pages-help-center"
+        }
+        
+      ]
+    },
+    {
+      "name": "Stock",
+      "icon": "menu-icon tf-icons bx bx-cube-alt",
+      "slug": "stock",
+      "submenu": [
+        {
+          "url": "categories",
+          "name": "Categories",
+          "slug": "categories"
+        },
+        {
+          "url": "products",
+          "name": "Products",
+          "slug": "products"
+        }
+      ]
+    },
+    {
+      "name": "transport",
+      "icon": "menu-icon tf-icons bx bx-cube-alt",
+      "slug": "Tronsport",
+      "submenu": [
+        {
+          "url": "transporteurs",
+          "name": "transporteurs",
+          "slug": "transporteurs"
+        },
+        {
+          "url": "vehicules",
+          "name": "vehicules",
+          "slug": "vehicules"
+        }
+      ]
+    }
+  ]
+}
